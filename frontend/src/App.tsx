@@ -1,11 +1,11 @@
-import React from "react";
-import "./App.css";
-import { Message } from "./components/Message";
+import React from 'react';
+import './App.css';
+import CustomButton from './components/Button';
 
 function App() {
   return (
     <div className="App">
-      <Message />
+        <CustomButton />
     </div>
   );
 }
